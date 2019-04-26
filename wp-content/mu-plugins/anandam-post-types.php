@@ -58,7 +58,8 @@ function anandam_post_types(){
         'rewrite' => array('slug' => 'people'),
         'supports' => array('title', 'editor', 'thumbnail'),
         'has_archive' => true,
-        'public' => true,
+        'public' => true, //false to send to home
+        // 'show_ui' => true,
         'labels' => array(
           'name' => 'People',
           'add_new_item' => 'Add New People',
